@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 200px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    height: 150px;
+    width: 200px;
+  }
+}
+
+.place-name {
+  align-self: flex-start;
+  font-family: Open Sans;
+  font-weight: bold;
+  width: 140px;
+}
